@@ -53,6 +53,7 @@ export async function generateMetadata({
       creator: config.x.handle,
     },
     robots: { index: true, follow: true },
+    verification: { google: "qx19ZOdHqMvOo08k9goP9PLAhgxrpx2cYijdcifkMKg" },
   };
 }
 

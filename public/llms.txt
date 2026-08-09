@@ -1,0 +1,44 @@
+# Loopa
+
+> Loopa is an iOS app that reminds contraceptive ring users when to insert and remove their
+> ring. It sends insistent reminders that repeat until confirmed, shows a live countdown widget
+> on the Home Screen and Lock Screen, keeps a fully editable history, and provides a guided
+> protocol if a date is missed.
+
+## Who it's for
+
+People who use the vaginal contraceptive ring (e.g. NuvaRing-type devices) and want a private,
+reliable reminder — not a generic period or pill tracker.
+
+## Key facts
+
+- Platform: iOS (iPhone). Not available on Android.
+- Price: free to download, with a Loopa Pro subscription (3-day free trial, then 19.99€/year,
+  auto-renewing).
+- Privacy: 100% local. No account, no server, no third-party SDK. Data never leaves the device
+  (optional private iCloud backup only).
+- Supported ring schedules: standard 21-days-in/7-days-out, continuous use (28 days, no break),
+  and fully custom durations.
+- Not a medical device and not a substitute for medical advice.
+
+## FAQ
+
+Q: How effective is the contraceptive ring?
+A: With perfect timing, the ring is about 99.7% effective (CDC data). Typical use (accounting
+for timing mistakes) is lower, around 93%. Loopa's core purpose is closing that gap by making
+timing mistakes harder to make.
+
+Q: Does Loopa collect any data?
+A: No. Loopa stores everything locally on the user's iPhone. There is no account, server, or
+analytics SDK.
+
+Q: Where can I download Loopa?
+A: On the Apple App Store (iPhone only).
+
+## Links
+
+- Website: /
+- Blog: /en/blog
+- Privacy Policy: /en/privacy
+- Terms of Use: /en/terms
+- Support: /en/support

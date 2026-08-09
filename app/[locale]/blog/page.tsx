@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { listPosts } from "@/lib/blog";
 import { defaultLocale, isLocale, type Locale } from "@/lib/i18n";
 
@@ -41,13 +42,22 @@ export default async function BlogIndex({
             <li key={p.slug}>
               <Link
                 href={`/${locale}/blog/${p.slug}`}
-                className="block rounded-2xl border border-[#4E3A5C]/10 bg-white p-6 shadow-sm transition hover:border-[#F2849A]/40"
+                className="block overflow-hidden rounded-2xl border border-[#4E3A5C]/10 bg-white shadow-sm transition hover:border-[#F2849A]/40"
               >
-                <p className="text-xs text-[#4E3A5C]/50">{p.date}</p>
-                <h2 className="mt-1 text-xl font-bold text-[#4E3A5C]">{p.title}</h2>
-                <p className="mt-2 text-[15px] leading-relaxed text-[#4E3A5C]/70">
-                  {p.description}
-                </p>
+                <Image
+                  src={p.cover}
+                  alt=""
+                  width={1200}
+                  height={630}
+                  className="h-40 w-full object-cover"
+                />
+                <div className="p-6">
+                  <p className="text-xs text-[#4E3A5C]/50">{p.date}</p>
+                  <h2 className="mt-1 text-xl font-bold text-[#4E3A5C]">{p.title}</h2>
+                  <p className="mt-2 text-[15px] leading-relaxed text-[#4E3A5C]/70">
+                    {p.description}
+                  </p>
+                </div>
               </Link>
             </li>
           ))}
